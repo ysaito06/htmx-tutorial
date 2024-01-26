@@ -1,0 +1,21 @@
+<script src="https://unpkg.com/htmx.org@1.6.0"></script>
+
+<a
+  href="#"
+  hx-get="https://jsonplaceholder.typicode.com/todos/1"
+  hx-trigger="click"
+  hx-target="#result"
+>
+  ID1のデータを取得
+</a>
+
+<div id="result">Loading...</div>
+
+<a
+  href="#"
+  hx-get="https://jsonplaceholder.typicode.com/todos/2"
+  hx-trigger="click"
+  hx-target="#result"
+>
+  ID2のデータを取得
+</a>
